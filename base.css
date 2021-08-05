@@ -1,6 +1,62 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: Roboto-medium;
+    src: url(content/fonts/Roboto-Medium.ttf)
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(content/fonts/Roboto-Light.ttf)
+}
 
 body{
-    background: #103e9c;
+    background: #1f3768;
+    margin: 0px;
+    
+}
+
+
+#header-wrapper{
+    position: relative;
+    background: #2e6a8d;
+    margin: 0px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.header{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: inline-flex;
+}
+
+#logo{
+    position: relative;
+    height: 100px;
+    float: none;
+    vertical-align: middle;
+    
+}
+
+#name{
+    font-family: Roboto-medium;
+    position: relative;
+    vertical-align: bottom;
+    font-size: 32pt;
+    margin-bottom: 0px;
+}
+
+#contact{
+    font-family: Roboto-light;
+    position: relative;
+    vertical-align: bottom;
+    font-size: 26pt;
+    margin-bottom: 0px;
+    text-align: right;
+    right: 0px;
+    display: flex;
+
 }
