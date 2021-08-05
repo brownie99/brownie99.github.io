@@ -4,3 +4,9 @@
 body{
     background: #103e9c;
 }
+
+#logo{
+    position: relative;
+    height: 10vh;
+    float: none;
+}
