@@ -9,4 +9,10 @@ body{
     position: relative;
     height: 10vh;
     float: none;
+    
+}
+
+#header-wrapper{
+    position: relative;
+    background: #006faf;
 }
