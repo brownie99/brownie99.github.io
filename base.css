@@ -15,4 +15,5 @@ body{
 #header-wrapper{
     position: relative;
     background: #2e6a8d;
+    display: inline-block;
 }
