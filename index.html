@@ -9,9 +9,27 @@
 
 <body>
     <div id="header-wrapper">
-        <img class="header" id="logo" src="content/logo.png">
-        <h1 id="name" class ="header">Brownie99</h1>
-        <h2 id="contact" class="header">scott.brown2299@gmail.com</h2>
+        <div id="header-left-wrapper">
+            <img class="header header-left" id="logo" src="content/logo.png">
+            <h1 id="name" class="header header-left">Brownie99</h1>
+        </div>
+        <div id="header-center-wrapper">
+            <!-- <button class="header-button" type="button">Home</button> 
+            <button class="header-button" type="button">Contact</button> -->
+        </div>
+        <div id="header-right-wrapper">
+            <h2 id="contact" class="header header-right">scott.brown2299@gmail.com</h2>
+        </div>  
     </div>
-    
+    <h1 id="intro-header">Who am I?</h1>
+    <p>Hi, I'm Scott Brown, also known as Brownie (or Brownie99 if that's taken) and I'm a guy who enjoys programming and all things computer science. I like to tinker with different technologies, especially those for game development, so here are a few of my projects I've done for fun.</p>
+    <br><br><br>
+    <h1>OpenGl</h1>
+    <p>I've always been curious as to how game engines work under the hood. I decided to teach myself the basics of graphics rendering at the API level to get a better understanding of how a game engine can take coordinates, models and shaders and turn it into a beautiful scene.</p>
+    <br>
+    <video class="vid" loop autoplay muted>
+        <source src="content/videos/opengl-cropped.mp4" type="video/mp4">
+    </video>
+    <br><br>
+    <p>After follwing tutorials online I finally managed to make a first person camera and scene filled with objects to look at. These are not only lit by multiple lights, but they also have specular maps and highlights depending on the material the light is touching. This is shown on the metal banding around the crates. I have also managed to implement transparancy for a stained window effect.</p>
 </body>

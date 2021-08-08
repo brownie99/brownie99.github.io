@@ -13,50 +13,87 @@
 body{
     background: #1f3768;
     margin: 0px;
+    color: white;
     
 }
 
+h1 {
+    font-family: Roboto-medium;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40pt;
+}
+
+h2 {
+    font-family: Roboto-light;
+    text-align: center;
+}
+
+h3 {
+    font-family: Roboto-light;
+    text-align: center;
+}
+
+p {
+    font-family: Roboto-light;
+    text-align: center;
+    font-size: 25pt;
+    margin-left: 300px;
+    margin-right: 300px;
+}
 
 #header-wrapper{
     position: relative;
     background: #2e6a8d;
     margin: 0px;
-    display: inline-flex;
+    display: flex;    
     width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .header{
     
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-left: 10px;
-    display: inline-flex;
+
+}
+
+.header-left{
+    display: inline-block;
 }
 
 #logo{
     position: relative;
-    height: 100px;
-    float: none;
-    vertical-align: middle;
+    height: 50px;
+
     
 }
 
 #name{
     font-family: Roboto-medium;
     position: relative;
-    vertical-align: bottom;
-    font-size: 32pt;
-    margin-bottom: 0px;
+    font-size: 60px;
 }
 
 #contact{
-    font-family: Roboto-light;
+    
     position: relative;
-    vertical-align: bottom;
     font-size: 26pt;
-    margin-bottom: 0px;
-    text-align: right;
-    right: 0px;
-    display: flex;
 
+}
+
+.header-button{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    border: none;
+    background: ;
+}
+
+.vid{
+    display: inline-block;
+    margin-left: 50vw;
+    transform: translate(-50%);
 }
